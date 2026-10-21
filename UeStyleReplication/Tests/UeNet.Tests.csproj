@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <LangVersion>9.0</LangVersion>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../Assets/UeNet/Runtime/Core/*.cs" Link="Core/%(Filename)%(Extension)" />
+    <Compile Include="../Assets/UeNet/Runtime/Examples/*.cs" Link="Examples/%(Filename)%(Extension)" />
+  </ItemGroup>
+</Project>

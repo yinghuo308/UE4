@@ -1,0 +1,29 @@
+# Local debugging and generated previews
+/.transport-debug/
+/qa-page.png
+
+# Unity and .NET generated files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+bin/
+obj/
+TestResults/
+.vs/
+.idea/
+*.csproj.user
+*.suo
+*.user
+
+# Local secrets and operating system files
+.env
+.env.*
+!.env.example
+!.env.sample
+.DS_Store
+Thumbs.db
+Desktop.ini

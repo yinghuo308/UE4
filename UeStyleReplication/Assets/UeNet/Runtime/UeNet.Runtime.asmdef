@@ -1,0 +1,6 @@
+{
+  "name": "UeNet.Runtime",
+  "rootNamespace": "UeNet",
+  "references": [],
+  "autoReferenced": true
+}
